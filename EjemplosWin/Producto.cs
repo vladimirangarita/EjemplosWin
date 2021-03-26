@@ -13,6 +13,6 @@ namespace EjemplosWin
 
         public decimal Precio { get; set; }
 
-        public decimal Stock { get;set }
+        public decimal Stock { get; set; }
     }
 }

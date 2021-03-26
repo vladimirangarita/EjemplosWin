@@ -22,5 +22,11 @@ namespace EjemplosWin
             frmExtenciones forma = new frmExtenciones();
             forma.ShowDialog();
         }
+
+        private void llbQueries1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmQueries1 forma = new frmQueries1();
+            forma.ShowDialog();
+        }
     }
 }

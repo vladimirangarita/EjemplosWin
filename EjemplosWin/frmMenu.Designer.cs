@@ -52,6 +52,7 @@
             this.llbQueries1.TabIndex = 1;
             this.llbQueries1.TabStop = true;
             this.llbQueries1.Text = "Queries 1";
+            this.llbQueries1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbQueries1_LinkClicked);
             // 
             // frmMenu
             // 
