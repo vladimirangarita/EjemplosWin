@@ -33,6 +33,8 @@
             this.btnQuery2 = new System.Windows.Forms.Button();
             this.btnQuery4 = new System.Windows.Forms.Button();
             this.btnQuery3 = new System.Windows.Forms.Button();
+            this.btnQuery5 = new System.Windows.Forms.Button();
+            this.btnQuery6 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grvResultados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,11 +86,33 @@
             this.btnQuery3.UseVisualStyleBackColor = true;
             this.btnQuery3.Click += new System.EventHandler(this.btnQuery3_Click);
             // 
+            // btnQuery5
+            // 
+            this.btnQuery5.Location = new System.Drawing.Point(366, 442);
+            this.btnQuery5.Name = "btnQuery5";
+            this.btnQuery5.Size = new System.Drawing.Size(75, 23);
+            this.btnQuery5.TabIndex = 5;
+            this.btnQuery5.Text = "Query 5";
+            this.btnQuery5.UseVisualStyleBackColor = true;
+            this.btnQuery5.Click += new System.EventHandler(this.btnQuery5_Click);
+            // 
+            // btnQuery6
+            // 
+            this.btnQuery6.Location = new System.Drawing.Point(447, 442);
+            this.btnQuery6.Name = "btnQuery6";
+            this.btnQuery6.Size = new System.Drawing.Size(75, 23);
+            this.btnQuery6.TabIndex = 6;
+            this.btnQuery6.Text = "Query 6";
+            this.btnQuery6.UseVisualStyleBackColor = true;
+            this.btnQuery6.Click += new System.EventHandler(this.btnQuery6_Click);
+            // 
             // frmQueries1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 487);
+            this.Controls.Add(this.btnQuery6);
+            this.Controls.Add(this.btnQuery5);
             this.Controls.Add(this.btnQuery4);
             this.Controls.Add(this.btnQuery3);
             this.Controls.Add(this.btnQuery2);
@@ -109,5 +133,7 @@
         private System.Windows.Forms.Button btnQuery2;
         private System.Windows.Forms.Button btnQuery4;
         private System.Windows.Forms.Button btnQuery3;
+        private System.Windows.Forms.Button btnQuery5;
+        private System.Windows.Forms.Button btnQuery6;
     }
 }

@@ -30,6 +30,7 @@
         {
             this.lblExtenciones = new System.Windows.Forms.LinkLabel();
             this.llbQueries1 = new System.Windows.Forms.LinkLabel();
+            this.llbQueries2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblExtenciones
@@ -54,11 +55,23 @@
             this.llbQueries1.Text = "Queries 1";
             this.llbQueries1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbQueries1_LinkClicked);
             // 
+            // llbQueries2
+            // 
+            this.llbQueries2.AutoSize = true;
+            this.llbQueries2.Location = new System.Drawing.Point(327, 128);
+            this.llbQueries2.Name = "llbQueries2";
+            this.llbQueries2.Size = new System.Drawing.Size(52, 13);
+            this.llbQueries2.TabIndex = 2;
+            this.llbQueries2.TabStop = true;
+            this.llbQueries2.Text = "Queries 2";
+            this.llbQueries2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbQueries2_LinkClicked);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.llbQueries2);
             this.Controls.Add(this.llbQueries1);
             this.Controls.Add(this.lblExtenciones);
             this.Name = "frmMenu";
@@ -72,6 +85,7 @@
 
         private System.Windows.Forms.LinkLabel lblExtenciones;
         private System.Windows.Forms.LinkLabel llbQueries1;
+        private System.Windows.Forms.LinkLabel llbQueries2;
     }
 }
 

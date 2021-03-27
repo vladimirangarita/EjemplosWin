@@ -28,5 +28,12 @@ namespace EjemplosWin
             frmQueries1 forma = new frmQueries1();
             forma.ShowDialog();
         }
+
+        private void llbQueries2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmQueries2 forma = new frmQueries2();
+            forma.ShowDialog();
+
+        }
     }
 }

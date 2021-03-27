@@ -67,6 +67,12 @@
     <Compile Include="frmQueries1.Designer.cs">
       <DependentUpon>frmQueries1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQueries2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueries2.Designer.cs">
+      <DependentUpon>frmQueries2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Producto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmQueries1.resx">
       <DependentUpon>frmQueries1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueries2.resx">
+      <DependentUpon>frmQueries2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
