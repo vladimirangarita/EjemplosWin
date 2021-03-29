@@ -35,5 +35,11 @@ namespace EjemplosWin
             forma.ShowDialog();
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmQueries3 forma = new frmQueries3();
+            forma.ShowDialog();
+        }
     }
 }

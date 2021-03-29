@@ -31,6 +31,8 @@ namespace EjemplosWin
             grvResultados.DataSource = colecion.ToList();
         }
 
+
+
         private void btnQuery3_Click(object sender, EventArgs e)
         {
             var coleccion = from Producto in Datos.Productos
