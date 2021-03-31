@@ -41,5 +41,11 @@ namespace EjemplosWin
             frmQueries3 forma = new frmQueries3();
             forma.ShowDialog();
         }
+
+        private void lblXML_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmXML forma = new frmXML();
+            forma.ShowDialog();
+        }
     }
 }

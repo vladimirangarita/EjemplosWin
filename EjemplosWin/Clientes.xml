@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Clientes>
+  <cliente nombre="AMADO" Apellido="MARTIN" sexo="M" />
+  <cliente nombre="ROBERTO" Apellido="ARZOZ" sexo="M" />
+  <cliente nombre="ESPERANZA" Apellido="DIAZ" sexo="F" />
+  <cliente nombre="MARIA" Apellido="RUIZ" sexo="M" />
+  <cliente nombre="ESPERANZA" Apellido="JIMENEZ" sexo="M" />
+  <cliente nombre="AURELIO" Apellido="SAEZ" sexo="M" />
+  <cliente nombre="ANA" Apellido="LOPEZ" sexo="F" />
+  <cliente nombre="DANIEL" Apellido="LOPEZ" sexo="M" />
+  <cliente nombre="JOSE" Apellido="GUTIERREZ" sexo="M" />
+  
+</Clientes>

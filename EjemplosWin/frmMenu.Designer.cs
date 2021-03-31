@@ -32,6 +32,7 @@
             this.llbQueries1 = new System.Windows.Forms.LinkLabel();
             this.llbQueries2 = new System.Windows.Forms.LinkLabel();
             this.llbQueries3 = new System.Windows.Forms.LinkLabel();
+            this.lblXML = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // lblExtenciones
@@ -78,11 +79,23 @@
             this.llbQueries3.Text = "Queries 3";
             this.llbQueries3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // lblXML
+            // 
+            this.lblXML.AutoSize = true;
+            this.lblXML.Location = new System.Drawing.Point(327, 187);
+            this.lblXML.Name = "lblXML";
+            this.lblXML.Size = new System.Drawing.Size(52, 13);
+            this.lblXML.TabIndex = 4;
+            this.lblXML.TabStop = true;
+            this.lblXML.Text = "XML Linq";
+            this.lblXML.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblXML_LinkClicked);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblXML);
             this.Controls.Add(this.llbQueries3);
             this.Controls.Add(this.llbQueries2);
             this.Controls.Add(this.llbQueries1);
@@ -100,6 +113,7 @@
         private System.Windows.Forms.LinkLabel llbQueries1;
         private System.Windows.Forms.LinkLabel llbQueries2;
         private System.Windows.Forms.LinkLabel llbQueries3;
+        private System.Windows.Forms.LinkLabel lblXML;
     }
 }
 
