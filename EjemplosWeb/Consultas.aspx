@@ -23,6 +23,9 @@
         <p>
             &nbsp;</p>
         <asp:Button ID="btnWhere" runat="server" Text="Where" OnClick="btnWhere_Click" />
+        <asp:Button ID="BtnXML" runat="server" OnClick="BtnXML_Click" Text="XML" />
+        <asp:Button ID="BtnDistinct" runat="server" OnClick="BtnDistinct_Click" Text="Distinct" />
+        <asp:Button ID="BtnAgrupar" runat="server" OnClick="BtnAgrupar_Click" Text="Agrupar" />
     </form>
 </body>
 </html>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+  <ListaEstatus>
+    <Estatus Codigo="A" Nombre="Aprobado"/>
+    <Estatus Codigo="C" Nombre="Completado"/>
+    <Estatus Codigo="P" Nombre="Pendiente"/>
+    <Estatus Codigo="R" Nombre="Rechazado"/>
+  </ListaEstatus>

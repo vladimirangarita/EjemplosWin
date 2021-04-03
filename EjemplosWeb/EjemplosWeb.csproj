@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consultas.aspx" />
+    <Content Include="Estatus.xml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
