@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<ventas>
+  <producto>
+    <nombre>Pelota</nombre>
+    <precio>20.50</precio>
+    <cantidad>100</cantidad>
+  </producto>
+  <producto>
+    <nombre>Paleta</nombre>
+    <precio>12.50</precio>
+    <cantidad>20</cantidad>
+  </producto>
+  <producto>
+    <nombre>Taza</nombre>
+    <precio>2.80</precio>
+    <cantidad>200</cantidad>
+  </producto>
+</ventas>
