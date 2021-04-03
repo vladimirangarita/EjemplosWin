@@ -20,8 +20,9 @@
             <asp:GridView ID="GrvResultados" runat="server">
             </asp:GridView>
         </p>
+        <p>
+            &nbsp;</p>
+        <asp:Button ID="btnWhere" runat="server" Text="Where" OnClick="btnWhere_Click" />
     </form>
-    <p>
-        &nbsp;</p>
 </body>
 </html>
