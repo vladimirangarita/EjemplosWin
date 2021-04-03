@@ -17,9 +17,13 @@ namespace EjemplosWeb
 
         protected void btnWhere_Click(object sender, EventArgs e)
         {
-            using (var solicitudes= new BdSolicitudes())
+            using (var solicitudes = new BdSolicitudes())
             {
-                var coleccion = solicitudes.Casos.Where(c => c.Estatus == "P");
+                var coleccion = solicitudes.Casos.Where(c => c.Estatus == "P")
+                    .Select(c => new
+                    {
+                        c.Descripcion,c.Fecha,c.Estatus
+                    });
                 GrvResultados.DataSource = coleccion.ToList();
                 GrvResultados.DataBind();
             }
