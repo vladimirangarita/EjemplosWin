@@ -79,5 +79,10 @@ namespace EjemplosWin
                            select Producto;
             grvResultados.DataSource = colecion.ToList();
         }
+
+        private void frmQueries1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

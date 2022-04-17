@@ -70,6 +70,7 @@
     <Content Include="Consultas.aspx" />
     <Content Include="Elementos.aspx" />
     <Content Include="Estatus.xml" />
+    <Content Include="Operadores.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="Elementos.aspx.designer.cs">
       <DependentUpon>Elementos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Operadores.aspx.cs">
+      <DependentUpon>Operadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operadores.aspx.designer.cs">
+      <DependentUpon>Operadores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

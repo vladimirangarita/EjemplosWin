@@ -121,6 +121,7 @@
             this.Name = "frmQueries1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmQueries1";
+            this.Load += new System.EventHandler(this.frmQueries1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grvResultados)).EndInit();
             this.ResumeLayout(false);
 
