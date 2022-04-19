@@ -71,6 +71,7 @@
     <Content Include="Elementos.aspx" />
     <Content Include="Estatus.xml" />
     <Content Include="Operadores.aspx" />
+    <Content Include="Verificadores.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +98,13 @@
       <DependentUpon>Operadores.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Verificadores.aspx.cs">
+      <DependentUpon>Verificadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Verificadores.aspx.designer.cs">
+      <DependentUpon>Verificadores.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
