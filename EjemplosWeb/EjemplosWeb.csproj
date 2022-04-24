@@ -70,6 +70,7 @@
     <Content Include="Consultas.aspx" />
     <Content Include="Elementos.aspx" />
     <Content Include="Estatus.xml" />
+    <Content Include="Generacion.aspx" />
     <Content Include="Operadores.aspx" />
     <Content Include="Verificadores.aspx" />
     <Content Include="Web.config" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="Elementos.aspx.designer.cs">
       <DependentUpon>Elementos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generacion.aspx.cs">
+      <DependentUpon>Generacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Generacion.aspx.designer.cs">
+      <DependentUpon>Generacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Operadores.aspx.cs">
       <DependentUpon>Operadores.aspx</DependentUpon>
