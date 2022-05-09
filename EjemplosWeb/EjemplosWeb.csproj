@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Comversiones.aspx" />
     <Content Include="Consultas.aspx" />
     <Content Include="Elementos.aspx" />
     <Content Include="Estatus.xml" />
@@ -77,6 +78,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BdSolicitudes.cs" />
+    <Compile Include="Comversiones.aspx.cs">
+      <DependentUpon>Comversiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comversiones.aspx.designer.cs">
+      <DependentUpon>Comversiones.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Consultas.aspx.cs">
       <DependentUpon>Consultas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
